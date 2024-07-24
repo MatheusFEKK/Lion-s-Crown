@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    text-align: center;
+        font-family: "Kadwa", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20pt;
+}
+
+/* TOP START */
+.top {
+    color: white;
+    
+    .header {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        background-color: #111F35;
+    
+    }
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #121428;
+    padding: 1.5rem;
+    
+    p {
+        display: inline;
+        padding: 4rem;
+    }
+}
+
+/* TOP END */
+
+.box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.about {
+    padding: 2rem;
+    h1 {
+        text-align: center;
+        font-weight: bolder;
+    }
+
+}
+.chef {
+    h2 {
+        text-align: center;
+        font-weight: bolder;
+    }
+    .chef-desc {
+        display: flex;
+        padding: 7rem;
+        width: 100%;
+    }
+}
